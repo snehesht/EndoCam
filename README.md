@@ -6,7 +6,7 @@
 
 <p align="center">Android camera app for cheap USB endoscopes. Plug the probe into the phone, see the picture, take photos and record video.</p>
 
-EndoCam talks to the Geek szitman "supercamera" chip found in low-cost USB endoscopes over USB OTG. The vendor app only supports its own protocol. EndoCam is a clean-room Kotlin port of the Linux tool in [EndoscopeCamera](https://github.com/snehesht/EndoscopeCamera), with a Material 3 user interface. No root, no NDK, no libusb.
+EndoCam talks to the Geek szitman "supercamera" chip found in low-cost USB endoscopes over USB OTG. The vendor app only supports its own protocol. EndoCam is written in Kotlin with a Material 3 user interface. No root, no NDK, no libusb.
 
 ## Features
 
@@ -159,6 +159,10 @@ The log shows each USB init step, frames per second and dropped frames every 5 s
 - The light is a dial on the cable. The app cannot switch it.
 - Fixed focus lens.
 - Only one client can hold the USB device. Close the desktop tool before opening the app.
+
+## Credits
+
+USB protocol details for these cameras: [jmz3/EndoscopeCamera](https://github.com/jmz3/EndoscopeCamera).
 
 ## License
 

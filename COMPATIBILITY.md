@@ -63,4 +63,4 @@ Known non-working platforms:
 
 ## Desktop
 
-The same camera works on Linux with the C++ tool in [EndoscopeCamera](https://github.com/snehesht/EndoscopeCamera). Only one program can hold the USB device at a time.
+The same camera works on Linux with the C++ tool in [EndoscopeCamera](https://github.com/jmz3/EndoscopeCamera). Only one program can hold the USB device at a time.
