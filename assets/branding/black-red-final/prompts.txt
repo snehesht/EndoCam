@@ -1,0 +1,24 @@
+Generator: built-in image_gen.
+ImageMagick resized and encoded the Android exports.
+The centered exports use the Android foreground layout and its circular launcher viewport. The source artwork is unchanged.
+The final logo restores the version before the extra punctuation dot.
+
+Original black and red logo
+
+Edit the attached EndoCam logo. Change ONLY the blue color to solid near-black #171717 everywhere: the broad C-shaped cable loop, USB-C connector, and "Endo" lettering. Preserve the solid vivid red central dot and red "Cam" lettering. Keep the exact geometry, USB-C tip shape and slot, centered red dot, proportions, positions, spacing, wordmark type, and exact text "EndoCam". Two ink colors only: black and red. Preserve the pure opaque white background, including all negative space. No blue or teal anywhere. Flat solid uniform fills, clean crisp contours, no gradients, no shadows, no texture, no extra shapes, no mockup, no checkerboard. One finished black-and-red logo.
+
+---
+
+Standalone symbol
+
+Use case: precise-object-edit.
+Derive the app icon and standalone symbol from this approved EndoCam logo. Keep ONLY the upper emblem: the exact black C-shaped cable loop, USB-C connector at lower left with its rounded oblong tip and slot, and large red circular dot in the center. Remove the entire wordmark and its small red punctuation dot, which belong only to the wordmark.
+Preserve the emblem shape and internal proportions exactly. Center the complete emblem including USB-C horizontally and vertically in a square. Make its total bounding box at most 60% of canvas width and 60% of height, leaving generous equal white margins for Android launcher mask safety.
+Black #171717 cable and connector, red #EF001B center dot, opaque pure white #FFFFFF background everywhere. No blue, no extra dots, no lettering, no rounded outer background corners, no shadows, no gradients, no textures. Crisp flat uniform shapes. Output one square app icon asset.
+
+---
+
+Transparent adaptive foreground
+
+Use case: background-extraction.
+Convert the attached EndoCam app symbol into an Android adaptive icon foreground PNG. Preserve the black C-shaped USB-C cable, connector slot, and red central dot EXACTLY, including their positions, proportions, size and square canvas margins. Remove only the entire white background, including white negative spaces and connector slot, and replace it with true alpha transparency. This MUST be an RGBA PNG with alpha zero outside the emblem. Do not draw white, black, or checkerboard as a background. Do not add a wordmark or any small dot. Keep black cable and red central dot. Clean edges, no shadows, no gradients or new shapes.

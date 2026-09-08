@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="17%"
+    android:insetTop="23.6%"
+    android:insetRight="31%"
+    android:insetBottom="24.4%">
+    <bitmap
+        android:src="@drawable/ic_endocam_artwork"
+        android:gravity="fill"
+        android:filter="true" />
+</inset>
